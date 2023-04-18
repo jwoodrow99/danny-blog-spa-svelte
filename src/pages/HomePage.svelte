@@ -2,7 +2,7 @@
 	// logic goes here
 </script>
 
-<div>HomePage</div>
+<div class="text-3xl font-bold underline">HomePage</div>
 
 <style>
 	/* styles go here */
