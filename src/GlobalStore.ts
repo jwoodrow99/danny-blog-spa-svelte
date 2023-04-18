@@ -1,2 +1,6 @@
 import { writable } from 'svelte/store';
-export const test = writable(0);
+const stateObject = {
+	authenticated: false,
+	user: null,
+};
+export const GlobalState = writable(stateObject);
